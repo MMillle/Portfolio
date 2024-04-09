@@ -1,4 +1,4 @@
-/* GENERAL */
+/* Portfolio-Fr.html / Portfolio-En.html */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
@@ -17,6 +17,12 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+}
+
+/* FA */
+
+.fa-language {
+  margin-right: 10px;
 }
 
 /* TRANSITION */
@@ -300,6 +306,16 @@ section {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.details-container-clear {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: white 0.1rem solid;
+  border-color: white;
   text-align: center;
 }
 
