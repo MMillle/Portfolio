@@ -176,10 +176,19 @@ section {
 }
 
 .section__pic-container {
-  display: flex;
-  height: 400px;
   width: 400px;
-  margin: auto 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section__pic-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 40px;
 }
 
 .section__text {
@@ -322,12 +331,6 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
-}
-
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
